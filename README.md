@@ -18,13 +18,34 @@ Getting started
 No external dependencies required for the simple converter. Run directly with Python:
 
 ```powershell
-python waconv.py <path-to-exported-chat.txt> > output.json
+python waconv.py <path-to-exported-chat.txt> <output.json>
 ```
 
 Usage
 
 - Replace `<path-to-exported-chat.txt>` with the path to your WhatsApp chat export.
-- The script writes JSON to stdout so you can redirect it to a file (as shown above).
+- Replace `<output.json>` with your desired output filename.
+
+Sample Output
+
+The generated JSON will look like this:
+
+```json
+[
+    {
+        "date": "27/05/25",
+        "time": "9:39:15 PM",
+        "sender": "Alice",
+        "message": "Hey, how are you?"
+    },
+    {
+        "date": "27/05/25",
+        "time": "9:40:00 PM",
+        "sender": "Bob",
+        "message": "I'm good! Just working on a project.\nHow about you?"
+    }
+]
+```
 
 License
 
