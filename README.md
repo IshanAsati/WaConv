@@ -40,6 +40,12 @@ Usage
 - Replace `<path-to-exported-chat.txt>` with the path to your WhatsApp chat export.
 - Replace `<output.json>` with your desired output filename.
 
+Project Structure
+
+- `waconv.py`: The core logic and CLI tool.
+- `app.py`: The Streamlit web frontend.
+- `requirements.txt`: Dependencies for the web frontend.
+
 Sample Output
 
 The generated JSON will look like this:
