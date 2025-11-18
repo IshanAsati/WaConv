@@ -21,6 +21,20 @@ No external dependencies required for the simple converter. Run directly with Py
 python waconv.py <path-to-exported-chat.txt> <output.json>
 ```
 
+Web Frontend
+
+You can also run a local web interface using Streamlit.
+
+1. Install dependencies:
+   ```powershell
+   pip install -r requirements.txt
+   ```
+
+2. Run the app:
+   ```powershell
+   streamlit run app.py
+   ```
+
 Usage
 
 - Replace `<path-to-exported-chat.txt>` with the path to your WhatsApp chat export.
